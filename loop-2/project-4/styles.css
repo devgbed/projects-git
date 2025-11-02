@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #55557e;
+    flex-direction: column;
+    margin-top: 5em;
+}
+.picdiv{
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    cursor: pointer;
+    background-color: #433e3e;
+    width: 70px;
+    height: 60px;
+    margin-left: 4px;
+}
+.images{
+    cursor: pointer;
+    background-color: black;
+    width: 100px;
+    height: 80px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.fooddiv{
+    background-image: url(./img/food.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+    margin-top: 2em;
+    color: white;
+    padding-top: 5em;
+}
+.imagen{
+    cursor: pointer;
+    background-color: #433e3e;
+    width: 70px;
+    height: 60px;
+}
+.locations{
+    cursor: pointer;
+    width: 20px;
+}
+.location{
+    display: flex;
+    align-items: center;
+}
+.maindiv{
+    display: flex;
+    flex-direction: column;
+}
+.quantitydiv{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 220px;
+    color: rgb(103, 93, 93);
+    padding: 2px;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+.pizz{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
