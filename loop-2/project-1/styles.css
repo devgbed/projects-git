@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#de8a89 ;
+  margin-top: 4em;
+ }
+ h1{
+  color: rgb(216, 177, 177);
+  font-size: xx-large;
+  cursor: pointer;
+ }
+ .navbar{
+  display: flex;
+  gap: 2em;
+ }
+ .navvbardiv{
+  display: flex;
+  flex-direction: column;
+  margin-left: 4em;
+ }
+.stnthetic{
+  color: white;
+}
+h6{
+  color: white;
+  margin-top: 2em;
+}
+h5{
+  color: #de8a89;
+}
+h3{
+  color: white;
+}
+.timerdiv{
+  background-color: #3e3c3d;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 5em;
+  gap: 3px;
+  justify-content: space-between;
+}
+button{
+  padding: 10px;
+  width: 160px;
+  margin-left: 5em;
+  margin-bottom: -4em;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+}
+.time{
+  margin-top: 4em;
+}
+.maindiv{
+  display: flex;
+}
+.timerdiv2{
+  background-color: #3a3236;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  padding-left: 4em;
+  justify-content: center;
+  flex-direction: column;
+}
+.timerdiv3{
+  background-color:#201e1f;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  padding-left: 4em;
+  justify-content: center;
+  flex-direction: column;
+}
+.leftarrowdiv{
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 5px solid #988484;
+  cursor: pointer;
+}
+.arrowdiv{
+  background-color:#ecb9b8 ;
+  width: 4em;
+  height: 4em;
+  padding-left: 2em;
+  padding-top: 30px;
+}
+.rightarrowdiv{
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 5px solid #988484;
+  cursor: pointer;
+}
+.workdiv{
+  display: flex;
+  margin-top: 2em;
+}

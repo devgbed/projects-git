@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7cd75;
+}
+.alldiv{
+  display: flex;
+  margin-top: 2em;
+  background-color: white;
+}
+.walletdiv{
+  background-color:#dad6d6;
+  width: 200px;
+  height: 350px;
+  padding: 1em;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.maindiv{
+  background-color: white;
+  width: 430px;
+  height: 350px;
+  padding: 1em;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.hero{
+  display: flex;
+  justify-content: space-between;
+}
+.p2{
+  font-weight: 50;
+}
+.images{
+  width: 50px;
+}
+.accounts{
+  background-color: white;
+  padding: 2px;
+  border-radius: 3%;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  cursor: pointer;
+}
+.accounts:hover{
+  border: 1px solid blue;
+  border-radius: 3%;
+}
+.mastercard{
+  background-color: white;
+  padding: 2px;
+  border-radius: 3%;
+  margin-bottom: 2em;
+  border: 1px solid blue;
+}
+h6{
+  background-color: rgb(190, 203, 203);
+  width: 90%;
+  height: 1px;
+  margin: 2em;
+}
+.image-class{
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid rgb(199, 180, 180);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+}
+.firstside{
+  display: flex;
+  gap: 1em;
+}
+h1{
+  font-size: 20px;
+  color:blue;
+}
+.h1-2{
+  font-size: 20px;
+  color: green;
+}
+.first{
+  display: flex;
+  justify-content: space-between;
+}
+.downsec{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

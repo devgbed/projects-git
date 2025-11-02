@@ -1,0 +1,170 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    overflow-y:auto
+}
+.herosection{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+}
+.watchdiv{
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+    border: none;
+    width: 100%;
+}
+input{
+    border: none;
+    padding: 0 ;
+    text-transform: capitalize;
+    border-bottom: 2px solid #aab0b7; 
+}
+.othersection{
+    display: flex;
+    gap: 3em;
+    color: rgb(212, 199, 199);
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-right: 7em;
+}
+.square{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+input:focus {
+  outline: none; 
+  border-bottom: 2px solid #1a5da0; 
+}
+p:hover{
+    color: #aab0b7;
+    border-bottom: 1px solid #1f5796;
+}
+.image{
+    width: 300px;
+}
+h4{
+    color: #b2b9c2;
+    font-size:8px;
+    font-style: normal;
+}
+h5{
+    background-color: red;
+    width: 1px;
+    height: 50px;
+}
+.linesec{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+button{
+    background-color: rgb(216, 69, 69);
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 1em;
+}
+h1{
+    font-weight:700;
+    color: #232425;
+}
+h6{
+    width: 100%;
+    height: 1px;
+    background-color: #aab0b7;
+}
+.freedom{
+    margin-left: 10em;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    font-size: 10px;
+    gap: 10em;
+    font-weight: 200;
+    color: #484e55;
+}
+h2{
+    font-size: 10px;
+    font-weight: bolder;
+}
+.hh{
+    background-color: #7a7e84;
+    width: 4px;
+    height: 5px;
+    border-radius: 3%;
+}
+.commentdiv{
+    display: flex;
+    gap: 4em;
+    align-items: center;
+    justify-content: center;
+}
+.red{
+    color: red;
+    font-size: small;
+}
+.ila{
+    background-color: red;
+    width: 30px;
+    height: 2px;
+    border-radius: 3%;
+}
+.ila:hover{
+    width: 60px;
+    cursor: pointer;
+}
+.dot{
+    color: white;
+}
+.imm{
+    width: 250px;
+}
+.belowdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    margin-top: 4em;
+}
+.hhh{
+    background-color: #2e333b;
+    width: 1px;
+    height: 60px;
+}
+.applediv{
+    margin-left: 10em;
+}
+.runnerdiv{
+    background-image: url(./img/runners.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    margin-top: 4em;
+    padding-left: 30em;
+    padding-top: 15em;
+    gap: 1em;
+}
+.hh4{
+    color: white;
+}
+.linrr{
+    background-color: white;
+    width: 1px;
+    height: 80px;
+    margin-right: 1em;
+}
+.gps{
+    display: flex;
+}

@@ -1,0 +1,38 @@
+
+#main {
+  width: 600px;
+  height: 250px;
+  border: 1px solid black;
+  display: flex;
+  background-color:aliceblue;
+  text-align: center;
+  padding-left: 100px;
+  margin-top: 7em;
+  }
+#main-div{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-right: 5em;
+   margin-top: 50%;
+}
+body{
+   background-color: rgb(13, 181, 237);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.description{
+   text-align: center;
+   color: rgb(4, 101, 235);
+   font-size: 20px;
+   text-align: center;
+}
+h6{
+   color:rgb(129, 99, 99);
+   padding-right: 2em;
+   text-align: center;
+}
+img{
+   padding-top: 2em;
+}

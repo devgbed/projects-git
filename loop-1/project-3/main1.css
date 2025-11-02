@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #16a085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maindiv{
+    background-color:#ffffff;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    overflow: hidden;
+    margin-top: 2em;
+    /* column-gap: 2em; */
+    /* gap: 20px; */
+}
+#order{
+    color: rgb(107, 109, 111);
+    font-size: small;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.account-image{
+    width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid #eceaec;
+  cursor: pointer;
+}
+.speed{
+    display: flex;
+    justify-content: space-between;
+}
+.down-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bike{
+    width: 300px;
+}
+.image{
+    width: 100%;
+
+}

@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   display: flex;
+  justify-content: center;
+  align-items: center;;
+  background-color: rgb(182 202 220);
+}
+.maindiv{
+  background-color: hsl(0deg 0% 100%);
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.MARK{
+color: white;
+
+}
+.HEADING{
+  display: flex;
+  background-color: hsl(216deg 58.51% 63.14%);
+  width: 100%;
+  height: 10%;
+  justify-content: space-between;
+  padding: 1em;
+}
+.trans{
+  text-transform: uppercase;
+}
+.line{
+   background-color:#c0bcbc;
+    width: 170px;
+    height: 2px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.today{
+  display: flex;
+  align-items: center;
+  color:#c0bcbc;
+  padding-top: 1em;
+}
+.time1{
+    color: #c0bcbc;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+.text1{
+  background-color:#afc0d0;
+  width: 260px;
+  height: 55px;
+  padding: 1em;
+  margin-left: 20px;
+}
+.time2{
+  color: #c0bcbc;
+    padding-top: 1em;
+    padding-left: 21em;
+}
+.text2{
+  background-color: #d1d4d7ca;
+  width: 270px;
+  height: 60px;
+  padding-top: 1em;
+  padding-left: 1em;
+  margin-left: 120px;
+}
+.text3{
+    background-color:#afc0d0;
+     margin-left: 20px;
+     width: 100px;
+     height: 40px;
+     padding: 7px;
+}
+.text4{
+  background-color: rgb(243, 177, 177);
+  width: 270px;
+  margin-top: 2em;
+  height: 50px;
+  padding-top: 1em;
+  padding-left: 1em;
+  margin-left: 120px;
+}
+.straight-line{
+  background-color:#c0bcbc;
+    width: 100%;
+    height: 1px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-top: 4px;
+}
+.message-section{
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+
+}
+button{
+  color: blue;
+  background-color: white;
+  border-color: hsl(0deg 0% 100%);
+}
+input[type=text], select {
+  width: 15em;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width:5em;
+  height:2em;
+  background-color: white;
+  color: blue;
+  margin-left:10em;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.message-section{
+  display:flex;
+  align-items: center;
+}

@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #2f2f2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alldiv{
+  background-color:#fdec51;
+  display: flex;
+  width: 300px;
+  height: 415px;
+  padding: 2em;
+  flex-direction: column;
+  margin-top: 3em;
+}
+.accountsetdiv{
+  display: flex;
+  gap: 7em;
+}
+.image{
+  border-radius: 100%;
+  width: 50px;
+  margin-top: -4em;
+}
+.maindiv{
+  background-color: white;
+  height: 350px;
+  width: 330px;
+  margin-top: 2em;
+  padding: 1em;
+  display: inline;
+}
+p{
+  font-weight: 500;
+  cursor: pointer;
+}
+h5{
+  padding-top: 1em;
+  padding-bottom: 3px;
+  font-size: 10px;
+  font-weight: 700;
+  color: rgb(159, 145, 145);
+}
+input{
+  border: none;
+  border-bottom: solid 2px whitesmoke;
+  width: 100%;
+  color: rgb(60, 62, 62);
+  font-size: 10px;
+  font-weight: 700;
+}
+input:focus{
+  outline: none;
+  border-bottom-color: rgb(180, 180, 194);
+}
+.namediv{
+  display: flex;
+}
+#input2{
+  padding-bottom: 5em;
+}
+.cancel{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 2em;
+  margin-top: 1em;
+}
+h4{
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(131, 127, 127);
+}
+h4:hover{
+  color: black;
+}

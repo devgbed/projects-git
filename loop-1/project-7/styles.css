@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:rgb(242 206 151) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alldiv{
+  display: flex;
+  margin-top: 5em;
+  box-shadow: 4px 4px;
+}
+.first-div{
+  background-color:rgb(72 73 86) ;
+  width: 300px;
+  height: 400px;
+  padding: 2em;
+}
+.second-div{
+  background-color: white;
+  width: 450px;
+  height: 400px;
+}
+h2{
+  color: white;
+}
+.h1-2{
+  color: rgb(220, 225, 230);
+}
+p{
+  background-color: rgb(232, 115, 115);
+  width: 50px;
+  height: 1px;
+  margin-bottom: 9em;
+  margin-top: 7px;
+}
+.john{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.pic{
+  border-radius: 100%;
+  width: 3em;
+}
+h5{
+  color: white;
+}
+.man{
+  display: flex;
+  flex-direction: column;
+}
+.main-div{
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+.h5-2{
+  color: rgb(68, 53, 53);
+  margin-top: 6px;
+}
+.openpage{
+  padding: 1em;
+}
+.dark{
+  color: black;
+}
+span{
+  font-size: 30px;
+  font-weight:700px;
+  font-family: sans-serif;
+}
+.down-sec{
+  display: flex;
+}
+.down{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1em;
+  box-shadow: 20px;
+}
+.sp-2{
+  font-size: small;
+  font-weight: 700;
+}
+h6{
+  padding: 0em;
+}
+.img-4{
+  width: 15px;
+}
+.sp-5{
+  font-size: small;
+  color: rgb(156, 160, 163);
+}
+.div{
+  align-items: center;
+  justify-content: center;
+}
+.p2{
+  
+}
