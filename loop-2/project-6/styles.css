@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #78accd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calendar{
+    width: 24rem;
+    height: 24rem;
+    background-color: #fff;
+    margin: 7rem auto;
+}
+.datesec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    color: rgba(136, 136, 136, .9);
+    border-bottom: 1px solid rgba(136, 136, 136, .4);
+}
+table{
+    margin: .3rem auto;
+    position: relative;
+}
+th{
+    padding:.7rem;
+    font-size: .73rem;
+    color: #888;
+    font-size: .73rem;
+}
+td{
+    padding:.7rem;
+    font-size: .8rem;
+    text-align: center;
+}
+.less{
+    color: rgba(145, 134, 134, 0.3);
+}
+.seven{
+    width: 2rem;
+    height: 2rem;
+    background-color: #de6e46;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: .5rem;
+}
+.number16,.number19{
+    position: relative;
+}
+.sixth{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #de6e46;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: .5rem;   
+}
+.nineth{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid purple;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alert{
+    position: absolute;
+    width: .5px;
+    height: .5px;
+    font-size: 12px;
+    color: #fff;
+    top: 6.8rem;
+    left: 17rem;
+    border-radius: 50%;
+    background-color: #de6e46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notify{
+    position: absolute;
+    width: .5px;
+    height: .5px;
+    font-size: 12px;
+    color: #fff;
+    right: 15.5rem;
+    bottom: 4.2rem;
+    border-radius: 50%;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calendarbottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(136, 136, 136, .4);
+    padding: 1.3rem 1.7em;
+    margin-top: 1rem;
+    font-size: .8rem;
+}
+.surroundplus{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #de6e46;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
